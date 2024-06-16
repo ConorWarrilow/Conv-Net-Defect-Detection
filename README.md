@@ -5,21 +5,21 @@ Just a quick notebook from a while ago using a CNN to detect defects in an indus
 We had 6633 images in the training dataset of which 3758 were defective, and 715 images in the test dataset of which 453 were defective. 
 
 Example images can be seen below:
-
+<br/>
 <img width="100" alt="image" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/17f2c9fe-5276-416b-ae36-62b97abd2047">
 
-
-
+<br/>
+<br/><br/><br/><br/><br/><br/>
 I ended up using a relatively simple model, importing a pretrained model wasn't necessary.
+<br/><br/><br/>
 
-
-
+<br/>
 
 Augmentation was used on the training data which improved classification accuracy on the test set considerably.
-
+<br/>
 
 We had 6633 images in the training dataset of which 3758 were defective, and 715 images in the test dataset of which 453 were defective. 
-
+<br/>
 Example images can be seen below:
 <br/>
 <img width="396" alt="image" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/17f2c9fe-5276-416b-ae36-62b97abd2047">
