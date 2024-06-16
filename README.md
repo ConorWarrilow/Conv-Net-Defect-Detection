@@ -6,7 +6,7 @@ We had 6633 images in the training dataset of which 3758 were defective, and 715
 
 Example images can be seen below:
 
-<img width="396" alt="image" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/17f2c9fe-5276-416b-ae36-62b97abd2047">
+<img width="100" alt="image" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/17f2c9fe-5276-416b-ae36-62b97abd2047">
 
 
 
