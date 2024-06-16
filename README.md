@@ -38,3 +38,33 @@ By around 30 epochs the model was able to consistently acheive 100% accuracy.
 2875  train pass
 
 2875   3758   262   453 
+
+<img width="906" alt="Screenshot 2024-06-16 161652" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/c3ec4391-6673-4e04-80ee-aa9d775e47ba">
+
+
+The components without defects are free of imperfections:
+![pass2](https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/4ad17cc3-ad20-49f3-91e0-2a774b2abb48)
+![pass4](https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/d630dbc1-9cf0-4231-a356-0705d884c6a3)
+![pass1](https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/0890fe33-aefd-48fb-9ea8-0f7043fe66b1)
+
+
+
+
+
+
+
+
+While some defective components are easy to spot:
+
+![defect1](https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/6965dc54-89be-479c-a2ee-2415221573e8)
+![defect9](https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/0fbd7afe-84b9-4a7e-9b68-d1908e541875)
+
+Some are a little less obvious:
+![defect3](https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/912381e4-bbf4-4b0a-b374-a2085fba24ad)
+![defect11](https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/ab4a3162-ae18-4cab-a2fd-943c3febb7a6)
+![defect12](https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/fe922346-3602-4221-8933-7626e25d0e8a)
+
+
+
+
+
