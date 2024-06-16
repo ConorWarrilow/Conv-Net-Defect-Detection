@@ -33,7 +33,9 @@ I ended up using a relatively simple model, importing a pretrained model wasn't 
 By around 30 epochs the model was able to consistently acheive 100% accuracy.
 
 
-
+<div align="center">
+	<img width = "400" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/c3ec4391-6673-4e04-80ee-aa9d775e47ba">
+</div>
 
 2875  train pass
 
