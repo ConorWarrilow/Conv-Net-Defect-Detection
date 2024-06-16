@@ -44,9 +44,10 @@ By around 30 epochs the model was able to consistently acheive 100% accuracy.
 
 The components without defects are free of imperfections:
 
-<img width="906" alt="Screenshot 2024-06-16 161652" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/4ad17cc3-ad20-49f3-91e0-2a774b2abb48">
+<img width="300" alt="Screenshot 2024-06-16 161652" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/4ad17cc3-ad20-49f3-91e0-2a774b2abb48">
 
-![pass2](https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/4ad17cc3-ad20-49f3-91e0-2a774b2abb48)
+<img width="300" alt="Screenshot 2024-06-16 161652" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/d630dbc1-9cf0-4231-a356-0705d884c6a3">
+
 ![pass4](https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/d630dbc1-9cf0-4231-a356-0705d884c6a3)
 ![pass1](https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/0890fe33-aefd-48fb-9ea8-0f7043fe66b1)
 
