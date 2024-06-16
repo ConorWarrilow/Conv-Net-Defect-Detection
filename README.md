@@ -21,22 +21,30 @@ Augmentation was used on the training data which improved classification accurac
 We had 6633 images in the training dataset of which 3758 were defective, and 715 images in the test dataset of which 453 were defective. 
 
 Example images can be seen below:
+<br/>
 <img width="396" alt="image" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/17f2c9fe-5276-416b-ae36-62b97abd2047">
+
+<br/>
+
+
+<div align="center">
+	<img width = "400" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/17f2c9fe-5276-416b-ae36-62b97abd2047">
+</div>
 
 
 
 
 I ended up using a relatively simple model, importing a pretrained model wasn't necessary.
-
+<br/>
 <img width="551" alt="image" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/551b5721-026b-4b1c-b66f-f5db626cfe9e">
-
+<br/>
 By around 30 epochs the model was able to consistently acheive 100% accuracy.
 
-
+<br/>
 <div align="center">
 	<img width = "400" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/c3ec4391-6673-4e04-80ee-aa9d775e47ba">
 </div>
-
+<br/>
 2875  train pass
 
 2875   3758   262   453 
