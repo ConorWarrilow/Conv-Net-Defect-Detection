@@ -1,8 +1,4 @@
 # Conv Net Defect Detection
-<div align="center">
-	<img width = "400" src="">
-</div>
-
 The aim of this notebook was to detect defects in industrial castings.
 
 
