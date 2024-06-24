@@ -4,6 +4,8 @@ The aim of this notebook was to detect defects in industrial castings.
 
 The data consisted of 6633 training images of which 3758 were defective, and 715 test images with 453 defective.
 <br/>
+
+# Components without Defects:
 The components without defects are seen to be entirely free of imperfections:
 <div style="display: flex; justify-content: center; gap: 10px;">
   <img width="300" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/4ad17cc3-ad20-49f3-91e0-2a774b2abb48" alt="Description of image 1">
@@ -12,7 +14,9 @@ The components without defects are seen to be entirely free of imperfections:
 </div>
 <br/>
 
-While some defective components are incredibly easy to spot:
+
+# Components With Defects:
+Some defective components are incredibly easy to spot:
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
   <img width="300" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/6965dc54-89be-479c-a2ee-2415221573e8" alt="Description of image 4">
   <img width="300" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/0fbd7afe-84b9-4a7e-9b68-d1908e541875" alt="Description of image 5">
@@ -28,7 +32,7 @@ Some are a little less obvious:
 <br/>
 
 
-With some being quite difficult if not questionable:
+And some are quite difficult to spot:
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
   <img width="300" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/cc0cf600-a1af-43df-b21e-25092e1c68f2" alt="Description of image 4">
   <img width="300" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/95d68943-6d73-4839-92fe-5e58adb2eae5" alt="Description of image 5">
@@ -63,7 +67,7 @@ By around 30 epochs the model was able to consistently acheive 100% accuracy on 
 	<img width = "800" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/c3ec4391-6673-4e04-80ee-aa9d775e47ba">
 </div>
 
-
+In the business context, such a model would make the process of defect detection incredibly efficient, saving time and money. Images captured and sent through the model could later be added to the training dataset, furthering the robustness if its classification accuracy.
 
 
 
