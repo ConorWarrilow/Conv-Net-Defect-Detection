@@ -4,19 +4,12 @@ The aim of this project was to automate the process of detecting defects in indu
 
 # $${\color{#E3804B}\text{Results}}$$
 
-Through the use of augmentation techniques and an optimized model design, I was able to consistently achieve 100% classification accuracy, while models produced by others generally maxed out at around 98-99%.
+Through the use of augmentation techniques and an optimized model design, I was able to consistently achieve 100% classification accuracy on the dataset.
 
 In addition, I was able to achieve this with an efficient self-designed CNN architecture containing only 5 convolutional layers and two dense layers. To compare, a small pretrained model can easily have up to 16-20 layers. Participants could be seen using popular pretrained models such as VGG16, while still recieving unsatisfactory results, as can be seen [here](https://www.kaggle.com/code/siddheshdandagavhal/impeller-casting-defect-detection). Other participants took the opposite route, creating shallow models that were unable to capture small details, while remaining inefficient due to the lack of pooling layers, as can be seen [here](https://www.kaggle.com/code/jominjae/casting-image-classification).
 
-As a result, the training time was as short as a few minutes. Not only does the model's efficiency save on time, but it would allow for the use of higher resolution images, which would further ensure the model's performance on small defects.
+By having an optimized model design, the training time was incredibly short. Not only does the model's efficiency save on time, but it would allow for the use of higher resolution images, which would further ensure the model's performance on small defects.
 
-
-
-https://www.kaggle.com/code/jominjae/casting-image-classification too simple too slow
-
-
-
-https://www.kaggle.com/code/siddheshdandagavhal/impeller-casting-defect-detection vgg 16 
 
 
 # $${\color{#4D918F}\text{The Dataset}}$$
