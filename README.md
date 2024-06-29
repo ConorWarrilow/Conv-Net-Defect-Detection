@@ -57,7 +57,7 @@ Lastly, some of the defects are quite difficult to spot with the naked eye and w
 </div>
 <br/>
 
-## CNN Architecture:
+# $${\color{#4D918F}\text{CNN Architecture} \space \color{#4D918F}\text{} \space \color{#00D8DB}\text{}}$$
 (If you're not familiar with Convolutional NNs I've includeded a short explanation at the end of the readme)
 
 I ended up using a relatively simple CNN architecture, and with the data set being small the training time was extremely quick. The model consists of five 3x3 kernel Convolutional layers (64 -> 64 -> 128 -> 128 -> 64), each with 2x2 maxpool layers, bringing the images down from 224x224 to 7x7. It then finishes with two FC layers (3136 and 1568 nodes). Neither batch normalization or dropout layers were found to be necessary and weren't included in the final model.
