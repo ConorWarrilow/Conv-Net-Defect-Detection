@@ -4,18 +4,23 @@ The aim of this project was to automate the process of detecting defects in indu
 
 # $${\color{#E3804B}\text{Results}}$$
 
+Through the use of augmentation techniques and an optimized model design, I was able to consistently achieve 100% classification accuracy, while models produced by others generally maxed out at around 98-99%.
 
-
-
-Through the use of augmentation techniques, specifically pytorch's 'color jitter', I was able to consistently achieve 100% classification accuracy, while other results for the task generally maxed out at around 98-99%.
-
-In addition, I was able to achieve this with an efficient self designed CNN architecture containing only 5 convolutional layers and two dense layers. To compare, a small pretrained model can easily have up to 16-20 layers. Participants were seen using models with up to 50 layers and over 24 million parameters (such as resnet50).
+In addition, I was able to achieve this with an efficient self-designed CNN architecture containing only 5 convolutional layers and two dense layers. To compare, a small pretrained model can easily have up to 16-20 layers. Participants could be seen using popular pretrained models such as VGG16, while still recieving unsatisfactory results, as can be seen [here](https://www.kaggle.com/code/siddheshdandagavhal/impeller-casting-defect-detection). Other participants took the opposite route, creating shallow models that were unable to capture small details, while remaining inefficient due to the lack of pooling layers, as can be seen [here](https://www.kaggle.com/code/jominjae/casting-image-classification).
 
 As a result, the training time was as short as a few minutes. Not only does the model's efficiency save on time, but it would allow for the use of higher resolution images, which would further ensure the model's performance on small defects.
 
 
-# $${\color{#4D918F}\text{The Dataset}}$$
 
+https://www.kaggle.com/code/jominjae/casting-image-classification too simple too slow
+
+
+
+https://www.kaggle.com/code/siddheshdandagavhal/impeller-casting-defect-detection vgg 16 
+
+
+# $${\color{#4D918F}\text{The Dataset}}$$
+This dataset was sourced from kaggle and can be found [here.](https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product/data)
 
 The data consisted of 6633 training images of which 3758 were defective, and 715 test images where 453 were defective.
 
