@@ -3,11 +3,15 @@
 The aim of this project was to automate the process of detecting defects in industrial castings through the use of convolutional neural networks, a type of deep neural networks commonly applied to images.
 
 # $${\color{#E3804B}\text{Results}}$$
-Through the use of augmentation techniques, specifically pytorch's 'color jitter', I was able to consistently achieve 100% classification accuracy, while other results for the task generally capped out at around 98-99%.
 
-In addition, I was able to achieve this with an efficient self designed CNN architecture containing only 5 convolutional layers and two dense layers. To compare, a small pretrained model can easily have up to 16-20 layers. 
 
-As a result, our training time was as short as a few minutes. Not only does the model's efficiency save on time, but it would allow for the use of higher resolution images, which would further ensure the model's performance on small defects.
+
+
+Through the use of augmentation techniques, specifically pytorch's 'color jitter', I was able to consistently achieve 100% classification accuracy, while other results for the task generally maxed out at around 98-99%.
+
+In addition, I was able to achieve this with an efficient self designed CNN architecture containing only 5 convolutional layers and two dense layers. To compare, a small pretrained model can easily have up to 16-20 layers. Participants were seen using models with up to 50 layers and over 24 million parameters (such as resnet50).
+
+As a result, the training time was as short as a few minutes. Not only does the model's efficiency save on time, but it would allow for the use of higher resolution images, which would further ensure the model's performance on small defects.
 
 
 # $${\color{#4D918F}\text{The Dataset}}$$
@@ -58,7 +62,11 @@ Lastly, some of the defects are quite difficult to spot with the naked eye and w
 <br/>
 
 # $${\color{#4D918F}\text{CNN Architecture} \space \color{#4D918F}\text{} \space \color{#00D8DB}\text{}}$$
-(If you're not familiar with Convolutional NNs I've includeded a short explanation at the end of the readme)
+<details>
+  <summary>$${\color{#72B3A2}\text{What's a CNN?}}$$</summary>
+
+A Convolutional Neural Network (CNN) is a type of artificial neural network primarily used for analyzing visual data, such as images and videos. It’s particularly effective for tasks like image recognition, object detection, and image classification. CNNs use what are called 'convolutional layers', where we can imagine them as taking dozens of cropped screenshots of the image to extract specific patterns and recognize what these patterns mean. Once our model is trained on every image, our model will classify a new image based on its patterns, and classify it to fall in the most similar group.
+</details>
 
 I ended up using a relatively simple CNN architecture, and with the data set being small the training time was extremely quick. The model consists of five 3x3 kernel Convolutional layers (64 -> 64 -> 128 -> 128 -> 64), each with 2x2 maxpool layers, bringing the images down from 224x224 to 7x7. It then finishes with two FC layers (3136 and 1568 nodes). Neither batch normalization or dropout layers were found to be necessary and weren't included in the final model.
 <br/>
