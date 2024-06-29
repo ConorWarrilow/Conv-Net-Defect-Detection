@@ -15,6 +15,10 @@ The components without defects are seen to be entirely free of imperfections:
 <br/>
 
 
+#4D918F
+
+
+
 # Components With Defects:
 Some defective components are incredibly easy to spot:
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
