@@ -1,4 +1,4 @@
-# $${\color{#000000}\text{Convolutional Neural Network} \space \color{#4D918F}\text{Defect Detection} \space \color{#00D8DB}\text{}}$$
+# $${\color{#4D918F}\text{Convolutional Neural Network} \space \color{#4D918F}\text{Defect Detection} \space \color{#00D8DB}\text{}}$$
 
 The aim of this project was to automate the process of detecting defects in industrial castings through the use of convolutional neural networks, a type of deep neural networks commonly applied to images.
 
@@ -21,7 +21,7 @@ The class imbalance is small and unlikely to be problematic.
 
 
 
-# $${\color{#000000}\text{Components} \space \color{#4D918F}\text{Without Defects} \space \color{#00D8DB}\text{}}$$
+# $${\color{#4D918F}\text{Components} \space \color{#4D918F}\text{Without Defects} \space \color{#00D8DB}\text{}}$$
 The components without defects are seen to be entirely free of imperfections:
 <div style="display: flex; justify-content: center; gap: 10px;">
   <img width="300" src="https://github.com/ConorWarrilow/Conv-Net-Defect-Detection/assets/152389538/4ad17cc3-ad20-49f3-91e0-2a774b2abb48" alt="Description of image 1">
@@ -34,7 +34,7 @@ The components without defects are seen to be entirely free of imperfections:
 
 
 
-# $${\color{#000000}\text{Components} \space \color{#4D918F}\text{With Defects} \space \color{#00D8DB}\text{}}$$
+# $${\color{#4D918F}\text{Components} \space \color{#4D918F}\text{With Defects} \space \color{#00D8DB}\text{}}$$
 Some defective components are incredibly easy to spot, and its no question as to whether they're defective.
 
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
