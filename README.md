@@ -33,7 +33,6 @@ The components without defects are seen to be entirely free of imperfections:
 
 
 
-
 # $${\color{#4D918F}\text{Components} \space \color{#4D918F}\text{With Defects} \space \color{#00D8DB}\text{}}$$
 Some defective components are incredibly easy to spot, and its no question as to whether they're defective.
 
